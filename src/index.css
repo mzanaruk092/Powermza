@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color: #000300;
+}
+span{
+  animation: ping 1s cubic-bezier(0, 0, 0.4, 1.0) infinite;
+@keyframes ping {
+  75%, 100% {
+    transform: scale(1);
+    opacity: 0;
+  }
+}
+}
